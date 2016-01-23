@@ -1,0 +1,41 @@
+{
+  "version": "1.3.2",
+  "name": "rcsdk",
+  "main": "./build/rc-sdk.min.js",
+  "ignore": [
+    "**/*",
+    "!README.md",
+    "!build/rc-sdk.js",
+    "!build/rc-sdk.js.map",
+    "!build/rc-sdk.min.js",
+    "!build/rc-sdk.min.js.map",
+    "!build/rc-sdk-bundle.js",
+    "!build/rc-sdk-bundle.js.map",
+    "!build/rc-sdk-bundle.min.js",
+    "!build/rc-sd-bundlek.min.js.map",
+    "!demo/**/*",
+    "!docs/**/*",
+    "!src/**/*"
+  ],
+  "dependencies": {
+    "pubnub": "^3.7.11",
+    "es6-promise-polyfill": "*"
+  },
+  "devDependencies": {
+  },
+  "private": false,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "RingCentral, Inc.",
+      "email": "devsupport@ringcentral.com"
+    },
+    {
+      "name": "Kirill Konshin"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://gitgub.com/ringcentral/js-sdk.git"
+  }
+}
